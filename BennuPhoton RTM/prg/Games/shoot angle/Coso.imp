@@ -1,0 +1,17 @@
+mod_key
+mod_proc
+mod_video
+mod_text
+mod_screen
+mod_map
+mod_time
+mod_string
+mod_math
+mod_mouse
+mod_sound
+mod_rand
+mod_grproc
+mod_scroll
+MOD_SAY
+mod_sort
+mod_draw

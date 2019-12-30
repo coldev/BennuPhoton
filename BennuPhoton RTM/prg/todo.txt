@@ -1,0 +1,12 @@
+
++ photonhash_get 
++ encriptar pack
+
+
+
++ set propiedades room 
++ set propiedades player
++ propiedades en listado de salas 
+
+
++ La funcion de Antilag(Cliente predictivo)    usar epic

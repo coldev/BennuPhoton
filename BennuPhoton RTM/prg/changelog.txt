@@ -1,0 +1,113 @@
+
+BennuPhoton  
+Colombian Developers (c) 2018
+
+MIT License
+
+
+============
+V1.2.1
+============
++ Soporte compresion de paquetes arreglado (fix memory leaks )  solo para paquetes grandes, no usarlo en paquetes pequenos(porq no se comprime nada)
+  para activarlo incluir     photon_compress_enable = true; 
++ Player props incluido de nuevo en la nueva libreria 
+
+
+
+============
+V1.2
+============
++ La libreria ahora es single thread.. la version multi hilo ya no existe..
++ La compresion de paquetes esta desactivada , los ejemplos usando estructuras grandes , 
+  iran muy lento hasta  volver  adicionar esta funcionalidad 
++ Funciones Player props esta desactivado
++ Los paquetes ahora son mucho mas eficientes y la perdida de paquetes es casi cero.
+
+
+
+
+
+============
+V1.1i
+============
++ Fix crash al usar photon_finalize
++ Fix en versiones paquetes comprimidos
+
+
+============
+V1.1h
+============
++ Compresion de paquetes activado por defecto.  (menos trafico de red)
++ Nuevas funciones de compresion.
++ Sistema de gestion de paquetes v3
++ Nuevos ejemplos
+
+
+============
+V1.1g
+============
++ Codigo thread interno ahora es CrossPlatform
++ Se usa mutex lock para integridad de listas internas
+
+
+============
+V1.1f
+============
++ Segunda version del envio de paquetes (Gestion en tiempo real)
++ Ejemplos actualizados 
++ Corregida photon_player_list
+
+
+
+============
+V1.1e
+============
++ Mejorado el envio de paquetes (Gestion en tiempo real)
++ photon_pack_sendgroup ahora tiene 4 parametros
++ Mas rapido y mas eficiente en el trafico de red.
++ En los ejemplos falto liberar memoria con free , gracias a SimulatorOne por el reporte.
+
+
+============
+V1.1c
+============
++ mejorado tiempo de respuesta PING de la conexion (ver customdata.prg)
+
+
+
+
+
+
+============
+V1.1
+============
++ 3 Juegos de ejemplo
+
+
+
+
+
+============
+V1.0
+============
++ Un monton de funciones en colaboracion gracias a Cictec y SimulatorOne
++ Primera version estable
++ Ejemplos nuevos
++ fix en funcion photon_player_get
+
+
+============
+Rc2
+============
+
++ Soporte de paquetes de confianza (PHOTON_RELIABLE_PACKET = true;)
++ Nuevos eventos de red soportados
++ Codigo mas ordenado
++ velocidad extra ++
++ corregido algunos bugs y/o caracteristicas no terminadas
+
+
+============
+Rc1
+============
++ Motor de red  con funciones basicas de envio y recepcion de paquetes
